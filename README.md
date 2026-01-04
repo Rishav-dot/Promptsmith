@@ -107,60 +107,51 @@ Planned development timeline:
 ```bash
 pip install -r requirements.txt
 python app/main.py
-Example Use Case
+```
+```markdown
+---
 
-User wants to create a prompt for:
+## Example Use Case
 
-RAG-based QA
+A user wants to create a prompt for:
 
-With strict no-hallucination constraints
+- RAG-based question answering
+- Strict no-hallucination constraints
+- JSON output format
+- Clearly defined input variables
 
-JSON output format
+PromptSmith will:
 
-Clear variable placeholders
+- Collect missing or unclear requirements
+- Reject vague or incomplete inputs
+- Generate a structured, reusable prompt
+- Evaluate prompt quality using an LLM-based critic
+- Refine the prompt if required
+- Store prompt versions for reproducibility
 
-PromptSmith:
+---
 
-Collects missing info
-
-Rejects vague inputs
-
-Generates a structured prompt
-
-Scores prompt quality
-
-Refines if needed
-
-Stores version history
-
-Why This Project Matters
+## Why This Project Matters
 
 This project demonstrates:
 
-LLM orchestration
+- LLM orchestration using LangGraph
+- State machine–driven system design
+- Structured prompt engineering
+- Validation-first AI workflows
+- Versioned prompt lifecycle management
 
-State machine design
+It reflects **real-world LLM system architecture**, not just prompt writing.
 
-Structured prompting
+---
 
-Validation-first thinking
+## Future Improvements
 
-Versioned AI systems
-
-It reflects real-world LLM system design, not just prompt writing.
-
-Future Improvements
-
-FastAPI backend
-
-Multi-user support
-
-Prompt testing on sample inputs
-
-Prompt diff & comparison UI
-
-Authentication & roles
-
+- FastAPI backend for API access
+- Multi-user support
+- Prompt testing against sample inputs
+- Prompt diffing and comparison UI
+- Authentication and role-based access
 Author
 
 Built by Rishav Datta
