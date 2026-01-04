@@ -108,8 +108,6 @@ Planned development timeline:
 pip install -r requirements.txt
 python app/main.py
 ```
-```markdown
----
 
 ## Example Use Case
 
