@@ -161,7 +161,7 @@ It reflects **real-world LLM system architecture**, not just prompt writing.
 ## Author
 
 - Built by Rishav Datta
-- Machine Learning & AI Systems Enthusiast
+
 
 
 ---
