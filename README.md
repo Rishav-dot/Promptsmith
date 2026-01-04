@@ -150,7 +150,8 @@ It reflects **real-world LLM system architecture**, not just prompt writing.
 - Prompt testing against sample inputs
 - Prompt diffing and comparison UI
 - Authentication and role-based access
-Author
+
+## Author
 
 Built by Rishav Datta
 Machine Learning & AI Systems Enthusiast
@@ -158,38 +159,3 @@ Machine Learning & AI Systems Enthusiast
 
 ---
 
-# C. How you should update this README daily
-
-### Each day:
-- Tick checkboxes
-- Add small screenshots / examples
-- Update “Current Status”
-- Add design notes in `docs/`
-
-This tells reviewers:
-> *“This person builds iteratively like a real engineer.”*
-
----
-
-# D. Final Advice (Important)
-
-❌ Don’t wait to finish before pushing  
-✅ Push **small, meaningful commits daily**
-
-Commit messages like:
-add validation state for requirements
-implement prompt evaluation agent
-add prompt versioning with sqlite
-
-
-These are **gold for interviews**.
-
----
-
-If you want, next I can:
-- Generate `requirements.txt`
-- Write `state_graph.py` skeleton
-- Design validation rules precisely
-- Help you plan **Day 1 commits**
-
-Just tell me what you want next 🚀
