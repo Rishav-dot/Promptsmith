@@ -57,10 +57,11 @@ Prompt Evaluation (LLM)
 Prompt Refinement (LLM)
 ↓
 Versioned Storage
+```
 
 
 The system transitions between states **dynamically**, based on validation and evaluation outcomes.
-```
+
 
 ---
 
