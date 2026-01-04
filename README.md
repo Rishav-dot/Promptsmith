@@ -77,11 +77,14 @@ The system transitions between states **dynamically**, based on validation and e
 ## Project Structure
 
 app/
-├── graph/ # LangGraph workflow and states
-├── models/ # Pydantic models
-├── llm/ # LLM wrappers and system prompts
-├── storage/ # Prompt version persistence
-├── utils/ # Validation and helper utilities
+├── graph/        # LangGraph workflow and states
+├── models/       # Pydantic models
+├── llm/          # LLM wrappers and system prompts
+├── storage/      # Prompt version persistence
+├── utils/        # Validation and helper utilities
+docs/             # Architecture & design notes
+tests/            # Unit tests (planned)
+
 
 
 ---
