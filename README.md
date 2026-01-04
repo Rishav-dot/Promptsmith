@@ -136,7 +136,7 @@ PromptSmith will:
 
 ---
 
-## Why This Project Matters
+## Why This Project?
 
 This project demonstrates:
 
